@@ -1,6 +1,12 @@
+@import url('reset.css');
+
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: roboto;
 }
 
 nav {
@@ -10,6 +16,7 @@ nav {
     align-items: center;
     padding: 0rem 0.5rem;;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
 }
 
 
@@ -28,7 +35,7 @@ nav {
 .Pesquisa input {
     flex-grow: 1;
     border: solid 1px grey;
-    padding: 0.6rem;
+    padding: 0.5rem;
     color: gray;
     justify-content: left;
     margin: 0.5rem 0rem;
@@ -58,11 +65,13 @@ nav {
     height: auto;
     width: 100%;
     max-width: 1200px;
+    border-radius: 1rem;
 }
 main h1 {
     height: auto;
     width: 100%;
     max-width: 1200px;
+    font-size: 150%;
 }
 .Avaliar {
     display: flex;
@@ -132,6 +141,7 @@ main h1 {
 .grid ul li {
     display: flex;
     text-decoration: none;
+    align-items: center;
     list-style: none;
     margin-bottom: 1rem;
     margin-left: 1rem;
