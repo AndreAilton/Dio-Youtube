@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 0rem 0.5rem;;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Home {
+    align-items: center;
+}
+.Pesquisa {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0rem 1rem;
+    max-width: 600px;
+
+
+
+}
+
+.Pesquisa input {
+    flex-grow: 1;
+    border: solid 1px grey;
+    padding: 0.6rem;
+    color: gray;
+    justify-content: left;
+    margin: 0.5rem 0rem;
+    border-radius: 5px 0px 0px 5px;
+
+
+}
+
+.Pesquisa img {
+    border: solid 1px grey;
+    background-color: #F8F8F8;
+    padding: 0.3rem;
+    border-radius: 0px 5px 5px 0px;
+}
+
+@media (max-width: 500px) {
+    .Pesquisa input {
+        border: solid 1px grey;
+        padding: 0.6rem;
+        color: gray;
+        justify-content: left;
+        margin: 0.5rem 0rem;
+        width: 1rem;
+    }
+}
+
+.Video {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.Avaliar {
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Avaliar img {
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+}
+.Canal {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+}
+
+@media (max-width: 740px) {
+    .Avaliar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+.Canal .Texto {
+    display: flex;
+    align-items: first baseline;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#Inscrever {
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem 1rem
+}
+.Avaliar div {
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Avaliar p {
+    margin: 0rem 0.5rem;
+}
