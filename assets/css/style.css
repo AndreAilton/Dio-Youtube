@@ -57,12 +57,12 @@ nav {
 .Video {
     height: auto;
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
 }
 main h1 {
     height: auto;
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
 }
 .Avaliar {
     display: flex;
@@ -125,27 +125,33 @@ main h1 {
 .grid {
     display: flex;
     flex-direction: column;
+    align-self: baseline;
 
 }
 
 .grid ul li {
+    display: flex;
     text-decoration: none;
     list-style: none;
     margin-bottom: 1rem;
     margin-left: 1rem;
 }
 .grid ul li img {
-    width: 100%;
+    width: auto;
+    height: 100%;
     max-width: 800px;
+    flex-shrink: 1;
 }
 
 .grid ul li .Texto {
     margin: 1rem;
+    align-items: left;
 
 }
 
 main {
     display: flex;
+    justify-content: center;
 }
 
 
@@ -154,6 +160,11 @@ main {
         display: block;
 
     }
+}
+@media (max-width: 740px) {
+    .grid ul li {
+        display: block;
+    }   
 }
 
 @media (max-width: 740px) {
